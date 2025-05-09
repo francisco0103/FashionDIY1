@@ -1,5 +1,14 @@
 {
   "expo": {
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+
+
+
     "name": "FashionDIY1",
     "slug": "FashionDIY1",
     "version": "1.0.0",
@@ -9,7 +18,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fashiondiy1.app",
+      "buildNumber": "1.0.0",
+      "backgroundColor": "#ffffff",
+      "backgroundImage": "./assets/images/splash.png"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,12 +36,13 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
